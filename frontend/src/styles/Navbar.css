@@ -1,0 +1,40 @@
+/* src/Components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #007bff; /* Bootstrap primary color */
+}
+
+.navbar-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white; /* White text for the title */
+}
+
+.navbar-links {
+    display: flex; /* Use flexbox for layout */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    gap: 2rem; /* Space between links, adjust as needed */
+}
+
+.navbar-link {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make the font bold */
+    font-size: 1.2rem; /* Set a larger font size */
+    padding: 0.5rem 1rem; /* Add padding for better click area */
+    border-radius: 5px; /* Round corners for the link */
+    transition: background-color 0.3s, transform 0.3s; /* Add transition for hover effects */
+    border: 2px solid transparent; /* Transparent border for effect */
+}
+
+.navbar-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+    transform: translateY(-2px); /* Slight lift on hover */
+    border: 2px solid white; /* White border on hover */
+}

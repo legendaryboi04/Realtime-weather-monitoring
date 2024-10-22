@@ -1,0 +1,67 @@
+.alert-summary-container {
+    max-width: 800px; /* Set a max width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding around the container */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    text-align: center; /* Center the title */
+    color: #333; /* Dark text color */
+}
+
+.alert-summary-form {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the items */
+    margin-bottom: 20px; /* Add space below the form */
+}
+
+.alert-summary-form select,
+.alert-summary-form input,
+.alert-summary-form button {
+    margin: 0 10px; /* Add space between the elements */
+    padding: 10px; /* Add padding for better usability */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 16px; /* Larger font size for readability */
+}
+
+.alert-summary-form button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.alert-summary-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.error-message {
+    color: red; /* Error message color */
+    text-align: center; /* Center the error message */
+    margin: 10px 0; /* Add space around the error message */
+}
+
+.alert-summary-table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Collapse borders for better appearance */
+    margin-top: 20px; /* Add space above the table */
+}
+
+.alert-summary-table th,
+.alert-summary-table td {
+    padding: 12px; /* Add padding for table cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #ddd; /* Light border for rows */
+}
+
+.alert-summary-table th {
+    background-color: #f2f2f2; /* Header background color */
+    color: #333; /* Header text color */
+}
+
+.alert-summary-table tr:hover {
+    background-color: #f1f1f1; /* Change background on hover */
+}

@@ -1,0 +1,97 @@
+.weather-summary-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+}
+
+.dominant-condition {
+    margin: 20px 0;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columns for 7 days */
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.calendar-day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Light background for the calendar boxes */
+}
+
+.calendar-day div {
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+.calendar-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.calendar-day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.day-number {
+    font-weight: bold;
+}
+
+.day-nature {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #555;
+}
+
+.calendar-container {
+    margin-top: 20px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.calendar-day {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.day-number {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.day-nature {
+    margin-top: 5px;
+}
