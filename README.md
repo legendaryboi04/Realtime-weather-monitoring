@@ -6,7 +6,7 @@ This Application is a real-time data processing system to monitor weather condit
 ![image](https://github.com/user-attachments/assets/77aef138-00e8-49c2-8b2d-78aa4bb4b537)
 
 ## Features
-1) Visualization temperature trends for major metropolitan cities, updating every 5 minutes, with filtering options by date and temperature scale (Celsius, Fahrenheit, or Kelvin)
+1) Visualization of temperature trends for major metropolitan cities, updating every 5 minutes, with filtering options by date and temperature scale (Celsius, Fahrenheit, or Kelvin)
 
 ![image](https://github.com/user-attachments/assets/fd82b4ce-775d-4e3d-a181-31b0c0358d99)
 
